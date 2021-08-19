@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:11-jre-slim
 MAINTAINER zuihou 306479353@qq.com
 
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \

@@ -48,11 +48,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <docker.image.prefix>zuihou</docker.image.prefix>
+        <docker.image.prefix>172.22.47.180:5555</docker.image.prefix>
+        <registry.project>lamp</registry.project>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-        <dockerfile-maven-plugin.version>1.4.12</dockerfile-maven-plugin.version>
+        <dockerfile-maven-plugin.version>1.4.13</dockerfile-maven-plugin.version>
         <spring-boot-maven-plugin.version>2.5.3</spring-boot-maven-plugin.version>
     </properties>
 
